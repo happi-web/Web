@@ -1,0 +1,85 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "addition",
+      "patterns": [
+        "Teach me addition",
+        "How to add numbers",
+        "Add",
+        "Find the sum",
+        "Find total"
+
+      ],
+      "responses": [
+        "The addition is an operation used in math to add numbers. The obtained result or answer after addition is known as a sum. For example, if we add 2 and 3, (2 + 3) we get the sum as 5. Here we performed the addition operation on two numbers 2 and 3 to get the sum i.e. 5.",
+        "The addition is taking two or more numbers and adding them together, that is, it is the total sum of 2 or more numbers."
+      ]
+    },
+    {
+      "tag": "examples",
+      "patterns": [
+        "Give me more examples?",
+        "Show me examples",
+        "Find examples"
+      ],
+      "responses": [
+        "There are 7 apples in one basket and 4 apples in the other. So, we add 7 and 4 to find the total number of apples. To add 7 and 4, we can count forward 4 steps from 7 The symbol used to indicate Addition is + (plus symbol). So, 7 and 4 can be written as 7 + 4"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
